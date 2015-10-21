@@ -4,7 +4,7 @@ Package.describe({
     name: 'universe:modules-entrypoint',
     version: modulesVersion,
     summary: 'Use universe:modules without need for *.import.js extension and run Meteor through one entry point.',
-    git: '',
+    git: 'https://github.com/vazco/meteor-universe-modules-entrypoint',
     documentation: 'README.md'
 });
 
