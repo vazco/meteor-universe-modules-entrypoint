@@ -2,6 +2,12 @@
 
 # Universe Modules - entrypoint edition
 
+### This package is a work in progress!
+
+There are some known issues, right now you should use it only if you're ready to work out with some bugs and maybe help with futher development.
+
+## About
+
 This package is essentially the same as `universe:modules` with one big difference:
 You can use modules in plain `*.js` ans `*.jsx` files, there is no need for `*.import.js(x)` extension anymore.
 
@@ -27,7 +33,7 @@ Removing `jsx` can be more tricky as it could be implied by `react` "umbrella" p
 
 If your using `react` package then you need to remove it and add other dependencies back:
 
-    meteor remove react
+    meteor remove react jsx
     meteor add react-runtime react-meteor-data
 
 
