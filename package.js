@@ -1,4 +1,4 @@
-var modulesVersion = '0.6.0'; // this package should release with original universe:modules
+var modulesVersion = '0.6.3'; // this package should release with original universe:modules
 
 Package.describe({
     name: 'universe:modules-entrypoint',
@@ -10,7 +10,7 @@ Package.describe({
 
 Package.registerBuildPlugin({
     name: 'compile-universe-modules-entrypoint',
-    use: ['universe:modules-compiler@1.0.0'],
+    use: ['universe:modules-compiler@1.0.4'],
     sources: ['plugin.js']
 });
 
@@ -18,8 +18,6 @@ Package.onUse(function (api) {
     api.versionsFrom('1.2.0.2');
 
     // Use Meteor 1.2 build plugin
-    api.use('isobuild:compiler-plugin@1.0.0');
-
-    // Load base package
+    api.use(['universe:modules@' + modulesVersion, 'isobuild:compiler-plugin@1.0.0']);
     api.imply('universe:modules@' + modulesVersion);
 });
