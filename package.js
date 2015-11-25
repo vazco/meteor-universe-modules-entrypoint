@@ -1,4 +1,4 @@
-var modulesVersion = '0.6.3'; // this package should release with original universe:modules
+var modulesVersion = '0.6.5'; // this package should release with original universe:modules
 
 Package.describe({
     name: 'universe:modules-entrypoint',
@@ -10,7 +10,7 @@ Package.describe({
 
 Package.registerBuildPlugin({
     name: 'compile-universe-modules-entrypoint',
-    use: ['universe:modules-compiler@1.0.4'],
+    use: ['universe:modules-compiler@1.0.5'],
     sources: ['plugin.js']
 });
 
