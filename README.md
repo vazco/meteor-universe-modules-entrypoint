@@ -1,6 +1,14 @@
-<a href="http://unicms.io"><img src="http://unicms.io/banners/standalone.png" /></a>
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/Universe Modules Entrypoint
+</h1>
 
-# Universe Modules - entrypoint edition
+&nbsp;
+
+<h3 align="center">
+  -- Abandonware. This package is deprecated! --
+</h3>
+
+&nbsp;
 
 ### This package is a work in progress!
 
@@ -91,3 +99,9 @@ You can do it like this:
             FlowRouter.initialize();
         }
     });
+
+### License
+
+<img src="https://vazco.eu/banner.png" align="right">
+
+**Like every package maintained by [Vazco](https://vazco.eu/), Universe Modules Entrypoint is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
