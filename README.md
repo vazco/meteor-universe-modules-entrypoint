@@ -10,8 +10,6 @@
 
 &nbsp;
 
-### This package is a work in progress!
-
 There are some known issues, right now you should use it only if you're ready to work out with some bugs and maybe help with futher development.
 
 ## About
